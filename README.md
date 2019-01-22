@@ -1,22 +1,22 @@
 # BeCode: pwned_cli
 
-> 🛰️ Short project's description
+> 🛰️ A small tool to check if your email has been leaked
 
 * * *
 
-A short abstract of the project, goals, context… Anything that should be useful for a future reader.
+Made while learning NodeJs [@BeCode](https://www.becode.org/). This is a project to discover Node's basics
 
 ## About
 
-A more detailed description of the project, with technical details: used langages and techs, context, etc.
+Made whith NodeJs. It uses [axios](https://www.npmjs.com/package/axios), [chalk](https://www.npmjs.com/package/chalk), [cli-table](https://www.npmjs.com/package/cli-table), [email-validator](https://www.npmjs.com/package/email-validator), [figlet](https://www.npmjs.com/package/figlet) and [ora](https://www.npmjs.com/package/ora) packages
 
-## Installation (if applicable)
+## Installation
 
-Details of process to install / setup dev environment for the project, if applicable.
+Run `npm install -g @anarion/pwned`
 
-## Usage (if applicable)
+## Usage
 
-How to use the project, if applicable
+Run `pwned <email>`
 
 * * *
 

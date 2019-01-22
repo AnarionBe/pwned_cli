@@ -31,7 +31,7 @@ function displayResult(breaches, email) {
 args.forEach(elem => {
     if(!ismail.validate(elem)) {
         // Addresse incorrecte
-        console.log("Invalid mail");
+        console.log("Invalid email");
     } else {
         // Addresse correcte
         const spinner = ora('Looking for breaches').start();
@@ -43,7 +43,8 @@ args.forEach(elem => {
             spinner.stop();
             displayResult(response.data, elem);
         }).catch(err => {
-            console.log("error");
+            if(err.response.status === 404) console.log(`\nNo breach detected for ${chalk.yellow(chalk.underline(elem))}`);
+            else console.log(`Error ${err.response.status}. Try again.`);
             process.exit();
         });
     }

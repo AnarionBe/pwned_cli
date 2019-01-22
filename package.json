@@ -1,10 +1,10 @@
 {
-    "name": "pwned_cli",
+    "name": "@anarion/pwned",
     "version": "1.0.0",
     "description": "",
     "main": "index.js",
     "scripts": {
-        "test": "pwned marcodb.debona@gmail.com marcodb.debona@gmailcom"
+        "test": "pwned marcodb.debona@gmail.com"
     },
     "author": "Anarion",
     "license": "ISC",

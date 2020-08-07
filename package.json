@@ -17,6 +17,6 @@
         "cli-table": "^0.3.1",
         "email-validator": "^2.0.4",
         "figlet": "^1.2.1",
-        "ora": "^3.0.0"
+        "ora": "^4.1.0"
     }
 }
